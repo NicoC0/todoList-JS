@@ -10,7 +10,6 @@ const setDate = () => {
     dateText.textContent = date.toLocaleString('es', {weekday: 'long'})
     dateMonth.textContent = date.toLocaleString('es', {month: 'short'})
     dateYear.textContent = date.toLocaleString('es', {year: 'numeric'})
-    console.log('alo')
 }
 
 setDate()
